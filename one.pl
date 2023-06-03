@@ -1,10 +1,11 @@
 use strict;
 use warnings;
 use utf8;
+use Regexp::Debugger;
 
 my $regex = qr{
     ab
-    (?<capture> .*)
+    (?<capture> .*?)
     yz
 }xms;
 
